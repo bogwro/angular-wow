@@ -1,0 +1,28 @@
+{
+  "name": "angular-wow",
+  "version": "0.1.0",
+  "description": "Angularized World of Warcraft API",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bogwro/angular-wow.git"
+  },
+  "keywords": [
+    "WoW",
+    "API",
+    "Angular",
+    "AngularJS"
+  ],
+  "author": "Bogumil Wrona @bwrona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bogwro/angular-wow/issues"
+  },
+  "homepage": "https://github.com/bogwro/angular-wow",
+  "devDependencies": {
+    "webpack": "^1.7.2"
+  }
+}
