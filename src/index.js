@@ -1,7 +1,7 @@
 var angular = require('angular'),
     moduleName = 'wow';
 
-angular.module('wow', [
+angular.module(moduleName, [
     require('./guild')
 ]);
 
