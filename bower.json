@@ -1,10 +1,13 @@
 {
   "name": "angular-wow",
-  "main": "index.js",
+  "main": "main/angularWoW.js",
   "version": "0.1.0",
   "homepage": "https://github.com/bogwro/angular-wow",
   "authors": [
-    "Bogumil Wrona <b.wrona@cre8newmedia.com>"
+    {
+      "name": "Bogumil Wrona",
+      "homepage": "https://twitter.com/bwrona"
+    }
   ],
   "description": "Angularized World of Warcraft API",
   "moduleType": [
@@ -22,9 +25,12 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "build",
+    "demo"
   ],
   "devDependencies": {
-    "angular": "~1.3.14"
+    "angular": "~1.3.15",
+    "angular-resource": "~1.3.15"
   }
 }
