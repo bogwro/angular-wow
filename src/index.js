@@ -1,5 +1,8 @@
-var mod = angular.module('wow', [
-    require('./core/configurationService')
+var angular = require('angular'),
+    moduleName = 'wow';
+
+angular.module('wow', [
+    require('./guild')
 ]);
 
-module.exports = mod;
+module.exports = moduleName;

@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en" ng-app="wowTest">
+<head>
+    <meta charset="UTF-8">
+    <title>angularWoW Library Demo</title>
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="../dist/angularWoW.js"></script>
+    <script src="init.js"></script>
+</head>
+<body ng-controller="wowCtrl">
+<pre>
+    {{ guild | json }}
+</pre>
+</body>
+</html>
