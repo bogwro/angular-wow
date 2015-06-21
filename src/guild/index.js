@@ -4,13 +4,15 @@ var angular = require('angular'),
         require('../core/configuration')
     ]);
 
+module.exports = moduleName;
 
-mod.provider('wowResource', function() {
+mod.provider('wowGuild', function() {
     this.$get = ['$http', 'wowConfig', function($http, config) {
         var options = config.options;
 
         return {
-            members: members
+            members: members,
+            news: news
         };
 
         function getUrl(opts) {
@@ -34,7 +36,9 @@ mod.provider('wowResource', function() {
             return getData({fields: 'members'});
         }
 
+        function news() {
+            return getData({fields: 'news'});
+        }
+
     }]
 });
-
-module.exports = moduleName;
