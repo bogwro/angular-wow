@@ -4,6 +4,7 @@
   "description": "Angularized World of Warcraft API",
   "main": "src/index.js",
   "scripts": {
+    "deploy": "NODE_ENV=production webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,16 +17,20 @@
     "Angular",
     "AngularJS"
   ],
-  "author": "Bogumil Wrona @bwrona",
+  "author": {
+    "name": "Bogumil Wrona",
+    "url": "http://www.wrona.io"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bogwro/angular-wow/issues"
   },
   "homepage": "https://github.com/bogwro/angular-wow",
   "devDependencies": {
-    "angular": "^1.3.15",
+    "angular": "^1.4.1",
     "babel-core": "^4.7.16",
-    "babel-loader": "^4.2.0",
-    "webpack": "^1.7.2"
+    "babel-loader": "latest",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.9.11"
   }
 }

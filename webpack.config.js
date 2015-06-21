@@ -6,6 +6,7 @@ var config = {
         angularWoW: './src/index.js'
     },
     externals: {
+        angular: 'angular'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
